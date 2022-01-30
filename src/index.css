@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gjs-one-bg {
+    background-color: #131314 !important;
+
+}
+
+
+.gjs-pn-commands {
+    width: 85%;
+    height: 3rem !important;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 5px rgb(26, 36, 58) !important;
+}
