@@ -9,9 +9,23 @@
 
 
 .gjs-pn-commands {
-    width: 85%;
-    height: 3rem !important;
-    left: 0;
-    top: 0;
+    height: 3.3rem !important;
     box-shadow: 0 0 5px rgb(26, 36, 58) !important;
+}
+
+.gjs-pn-buttons {
+    padding-top: 8px;
+}
+.gjs-cv-canvas {
+    background-color: rgba(0,0,0,.15);
+    box-sizing: border-box;
+    width: 85%;
+    height: calc(100% - 60px) !important;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    margin-top: 1.2rem;
+    top: 40px;
 }
