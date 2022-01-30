@@ -1,9 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    background-color: #131314;
+}
+#editor {
+    padding: 2px 7px 2px 7px !important;
+
+}
 
 .gjs-one-bg {
     background-color: #131314 !important;
+
 
 }
 
@@ -17,6 +25,7 @@
     padding-top: 8px;
 }
 .gjs-cv-canvas {
+    padding: 0px 15px 0px 15px !important;
     background-color: rgba(0,0,0,.15);
     box-sizing: border-box;
     width: 85%;
@@ -25,7 +34,7 @@
     overflow: hidden;
     z-index: 1;
     position: absolute;
-    left: 0;
+    padding: 10px !important;
     margin-top: 1.2rem;
     top: 40px;
 }
