@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import grapesjs from "grapesjs";
 import "grapesjs/dist/css/grapes.min.css";
-import PluginOptions from "./elements";
 import grapesjsMJML from "grapesjs-mjml";
 //@ts-ignore
 // import templateHTML from "../test.html";
@@ -28,7 +27,7 @@ const MJML = () => {
           modalLabelImport: "Paste all your code here below and click import",
           modalLabelExport: "Copy the code and use it wherever you want",
           importPlaceholder:
-            '<table class="table"><tr><td class="cell">Hello world!</td></tr></table>',
+            '',
           cellStyle: {
             "font-size": "12px",
             "font-weight": 300,
